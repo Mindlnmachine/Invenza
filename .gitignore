@@ -1,0 +1,57 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and build output
+node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Generated local datasets and machine-learning artifacts
+/Backend/data/
+/Backend/models/
+/*.csv
+gp-search-*.csv
+
+# Local databases and runtime files
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor and tooling files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
